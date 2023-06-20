@@ -7,6 +7,7 @@ To launch the application, just type
 from the application directory.
 
 then you need to enter commands to restore the data
+
 `docker cp GIS.backup pgdb:/var/lib/postgresql/data` 
 
 and 
