@@ -1,0 +1,118 @@
+/*тут вообще пояснять нет смысла, все и так понятно. но если есть вопросы спрашивай*/
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+#map {
+    /* configure the size of the map */
+    width: 100%;
+    height: 100%;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background-color: white;
+}
+
+.leaflet-popup-content, .leaflet-control-layers-list{
+    font-family: Arial, cursive;
+    font-size: large;
+}
+
+.leaflet-control-layers-list{
+
+}
+
+.Label{
+    font-family: Arial, cursive;
+    font-size: medium;
+}
+
+.leaflet-popup-content{
+    font-family: Arial, cursive;
+    font-size: large;
+}
+
+.UfaLabel, .BelebeyLabel{
+    font-family: Arial, cursive;
+    font-size: medium;
+}
+* {box-sizing:border-box}
+
+/* картинки и видео(в частности слайдер)*/
+img,video{
+    max-height:300px;
+    max-width:400px;
+    cursor:pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+
+}
+#dopinfo{
+    margin-top:5px;
+    border:none;
+    box-shadow: 1px 1px 5px rgb(90 90 90 );
+    background-color:#ffffff;
+    margin-inside: 20px;
+    color:black;
+    padding-left:10px;
+    padding-bottom:10px;
+    padding-right:10px;
+    padding-top:10px;
+    border: none;
+    border-radius: 15px;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: large;
+    cursor: pointer;
+}
+#dopinfo:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 5px 5px rgba(20, 180, 110, 0.4);
+    color: #fff;
+}
+
+
+#refreshButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    z-index: 400;
+}
+/*аудиоконтент в сайдбаре*/
+audio{
+
+    width: 100%;
+}
+p{
+    font-size: large;
+}
+/*картинка в легенде*/
+.imgtree{
+    max-width: 30px;
+    max-height: 30px;
+    display:inline;
+    margin-bottom: -8px;
+}
+.imageOverlay{
+    cursor: default;
+}
+
+.PamyatnikiInfo{
+
+}
+
+.leaflet-tooltip{
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    color: white;
+    font-size: medium;
+    text-shadow: 2px 2px 2px #000;
+}
+.easy-button-button{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
